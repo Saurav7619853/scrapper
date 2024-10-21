@@ -1,4 +1,3 @@
-# auth.py
 import jwt
 import os
 from dotenv import load_dotenv

@@ -1,4 +1,3 @@
-# main.py
 from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
 from app.auth import verify_token

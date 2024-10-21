@@ -21,7 +21,7 @@
         "path_to_image": "images/3a-medes-bleaching-and-night-guard-sheets-2-1-600x600.jpg"
     },
 ]
-
+```
 
 # Step By Step process to run the tool
 
@@ -34,6 +34,6 @@
 curl --location --request POST 'http://127.0.0.1:8000/scrape/' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjA4ODE3MTR9.LofPdUy_IIrMyEaUQyUNCxgsRP-e1TmRMpz3KrTxNh8' \
 --header 'Content-Type: application/json' \
---data-raw '{"page_limit": 2}'```
-
-Here in the curl jwt token is there for the authentication. You can also pass "proxy" in the payload like the page limit
+--data-raw '{"page_limit": 2}'
+```
+*Here in the curl jwt token is there for the authentication. You can also pass "proxy" in the payload like the page limit*

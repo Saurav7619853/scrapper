@@ -36,8 +36,4 @@ curl --location --request POST 'http://127.0.0.1:8000/scrape/' \
 --header 'Content-Type: application/json' \
 --data-raw '{"page_limit": 2}'
 ```
-this is the token
-```
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NjA4ODE3MTR9.LofPdUy_IIrMyEaUQyUNCxgsRP-e1TmRMpz3KrTxNh8
-```
 *Here in the curl jwt token is there for the authentication. You can also pass "proxy" in the payload like the page limit*
